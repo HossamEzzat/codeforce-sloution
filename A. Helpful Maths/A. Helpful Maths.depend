@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1635942353 source:c:\users\user\desktop\a. helpful maths\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<stdio.h>
+
