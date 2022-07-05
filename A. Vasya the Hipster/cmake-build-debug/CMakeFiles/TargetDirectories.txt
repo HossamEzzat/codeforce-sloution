@@ -1,3 +1,0 @@
-C:/Users/User/A. Vasya the Hipster/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/User/A. Vasya the Hipster/cmake-build-debug/CMakeFiles/A__Vasya_the_Hipster.dir
-C:/Users/User/A. Vasya the Hipster/cmake-build-debug/CMakeFiles/rebuild_cache.dir
