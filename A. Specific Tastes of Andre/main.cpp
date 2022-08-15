@@ -3,15 +3,14 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int n, k;
-	cin >> n >> k;
-	while(k--){
-		if(n % 10 != 0){
-			n--;
-		}else{
-			n /= 10;
+	int t, n;
+	cin >> t;
+	while(t--){
+		cin >> n;
+		while(n--){
+			cout << "1 ";
 		}
+		cout << endl;
 	}
-	cout << n;
 	return 0;
 }
