@@ -1,33 +1,36 @@
 #include <iostream>
-#include <bits/stdc++.h>
-#include <stdio.h>
-
 using namespace std;
 
-int main()
-{
-    string equ;
-    cin>>equ;
+int main() {
+	// your code goes here
+	string s;
+	cin >> s;
+	int a, b, c;
+	a = b = c = 0;
+	for(int i=0; i<s.size(); i++)
+		if(s[i] == '1')
+			a++;
+		else if(s[i] == '2')
+			b++;
+		else if(s[i] == '3')
+			c++;
+	for(int i=0; i<s.size(); i++)
+		if(s[i] == '+')
+			cout << '+';
+		else if(a > 0){
+			cout << 1;
+			a--;
+		}else if(b > 0){
+			cout << 2;
+			b--;
+		}else{
+			cout << 3;
+			c--;
+		}
 
-    int mysize= (equ.length()/2)+1 ;
-    int arr[mysize];
-    int counter=0;
-    for(int i=0;i<equ.length();i++){
-            if(equ[i]=='+'){
-
-            continue;
-            }
-        arr[counter]=equ[i]-'0';
-        counter++;
-
-    }
-    int n=sizeof(arr)/sizeof(arr[0]);
-    sort(arr,arr+n);
-    for(int i=0;i<mysize;i++){
-            if(i!=0){
-                cout<<"+";
-            }
-        cout<<arr[i];
-    }
-    return 0;
+	return 0;
 }
+
+
+
+
