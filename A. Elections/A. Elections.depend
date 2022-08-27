@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1661590317 source:c:\users\user\desktop\a. elections\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
