@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1666597715 source:c:\users\user\desktop\tictoe\main.cpp
+	<iostream>
+	<stdlib.h>
+
